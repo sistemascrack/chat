@@ -151,15 +151,15 @@ function checkWhatsAppConnection() {
 	try {
 
 
-		if (typeof document.getElementsByClassName("J3VFH")[0] !== "undefined") {
-			if (document.getElementsByClassName("J3VFH")[0].outerText === "Search or start new chat") {
+		if (typeof document.getElementsByClassName("_1MBn6")[0] !== "undefined") {
+			if (document.getElementsByClassName("_1MBn6")[0].outerText === "Search or start new chat") {
 				userIsConnected = true;
 			}
 		}
 
 		if (typeof document.getElementsByClassName("landing-landing-title VeVN5")[0] === "undefined") {
 
-			if (typeof document.getElementsByClassName("J3VFH")[0] !== "undefined" || document.getElementsByClassName("_1QMFu")[0] === null) {
+			if (typeof document.getElementsByClassName("_1MBn6")[0] !== "undefined" || document.getElementsByClassName("_1QMFu")[0] === null) {
 				userIsConnected = true;
 			}
 
@@ -764,9 +764,9 @@ function WMBSP_GETPROFILEPICTUREFROMID(id) {
 	try {
 		var urlImage = [];
 
-		urlImage = document.getElementsByClassName("_2goTk _1Jdop _3Whw5")[0].src.split("pp?e=");
+		urlImage = document.getElementsByClassName("_3t3gU rlUm6 _1VzZY")[0].src.split("pp?e=");
 		
-		urlImage[1] = urlImage[1].replace(/%3A/g, ":").replace(/%2F/g, "/").replace(/%3F/g, "?").replace(/%3D/g, "=").replace(/%26/g, "&");
+		urlImage[1] = urlImage[1].replace(/%3A/g, ":").replace(/%2F/g, "/").replace(/%3F/g, "?").replace(/%3D/g, "=").replace(/%26/g, "&").replace(/%40/g, "@");
 		
 		return urlImage[1];
 	} catch (e) {
