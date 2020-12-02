@@ -8,7 +8,7 @@ https://google.com/updatewa;
 7.8.0.87;
 C:\Program Files (x86)\UpdateWA.exe;
 https://google.com/updatewa;
-C:\Program Files (x86)\DIGITALGRUPOS\Pesquisar\Grupos.exe;
+C:\Program Files (x86)\DigitalCliquesWA\Pesquisar\Grupos.exe;
 C:\Program Files (x86)\DIGITALGRUPOS\Grupos.exe;
 C:\Program Files (x86)\Google\Chrome\Application;
 https://whats.li/dwa/php/cliente_acesso.php?;
