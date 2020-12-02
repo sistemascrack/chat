@@ -5,7 +5,7 @@ https://www.youtube.com/;
 85;
 C:\Program Files\Google\Chrome\Application\chrome.exe;
 https://google.com/updatewa;
-7.8.0.86;
+7.8.0.87;
 C:\Program Files (x86)\UpdateWA.exe;
 https://google.com/updatewa;
 C:\Program Files (x86)\DIGITALCLIQUESWA\Pesquisar\Grupos.exe;
