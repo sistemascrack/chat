@@ -1,4 +1,4 @@
-// ============================ MyCustomScript ========================================
+// 0============================ MyCustomScript ========================================
 
 //essa é a função que capta a mensagem que foi pegada do usuário
 function startAutoReplay() {
