@@ -1,4 +1,4 @@
-//1essa é a função que capta a mensagem que foi pegada do usuário
+//essa é a função que capta a mensagem que foi pegada do usuário
 function startAutoReplay() {
 	debugger
 	var myNumber = getMyNumber();
