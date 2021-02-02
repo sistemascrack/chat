@@ -24,7 +24,7 @@ function clickLoginButton(){
 
 function getSituationLogin(){
     try{
-        if(window.location.href == "https://api-zapmax.ferramentas.marketing/dashboard"){
+        if(window.location.href != "https://api-zapmax.ferramentas.marketing/login"){
             return true;
         }else{
             return false;
@@ -64,7 +64,7 @@ function GetListCampains(){
         var len = document.getElementsByClassName("d-flex flex-column").length;
 
         var list ="";
-        var separator = '¢';
+        var separator = '<!&!>';
         var lineSeparator = '§';
         var name = "";
         var origin = "";
@@ -108,7 +108,7 @@ function GetListNotifications(){
         var len = document.getElementsByClassName("d-flex flex-column").length;
 
         var list ="";
-        var separator = '¢';
+        var separator = '<!&!>';
         var lineSeparator = '§';
         var name = "";
         var origin = "";
